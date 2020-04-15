@@ -1,11 +1,13 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
+
+import ReducerHook from './reducer'   // qdo colocado dessa forma ele vai procurar a função dentro de index.js que esta na pasta reducer
+
 
 
 function App() {
-  return (
-    <div >
-    </div>
-  );
+  return(
+    <ReducerHook />
+  )
 }
 
 export default App;
